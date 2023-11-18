@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    min-height: 100vh;
+}
+
+.esqueletoOff{
+    width: 550px;
+    height: 600px;
+    background-color: lightskyblue;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    background-image: url(../img/movpng.png);
+    cursor: pointer;
+}
+
+
+
+.esqueletoOnOff{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(92, 232, 239);
+    border-radius: 1vh;
+    border: 0.2rem solid rgb(10, 228, 244);
+    position: fixed;
+    color: azure;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: monospace;
+    font-size: 1.5rem;
+}
+
+.esqueletoOff.on{
+  background-image: url(../img/movgif.gif);
+}
